@@ -101,8 +101,8 @@ const translations = {
   "status.verified": "Verified",
   "status.unverified": "Unverified",
 
-  // Checkbox
-  "checkbox.doNotShowAgain": "Don't show this again",
+  // CheckBox
+  "checkBox.doNotShowAgain": "Don't show this again",
 
   // Global Error
   required: "Required.",
@@ -205,20 +205,20 @@ const translations = {
   "signup.invitationOnly.title":
     "OnMail is currently only available through invitation",
   "signup.invitationOnly.subtitle": `Sign up now to experience the future of email.`,
-  "signup.planRestrictions.tooltip":
+  "signup.planRestrictions.toolTip":
     "{{ email }} is a premium email address and is only available with Professional or Business plans. All other plans have access to account names with 8 or more characters.",
   "signup.planRestrictions":
     "Email addresses with fewer than 8 characters are only available on our <0>Professional</0> or <0>Business</0> plans starting at $9.99/month.",
-  "signup.hobbyPlanRestrictions.tooltip":
+  "signup.hobbyPlanRestrictions.toolTip":
     "Personal plans are currently invite-only.",
-  "signup.hobbyNotAllowed.tooltip":
+  "signup.hobbyNotAllowed.toolTip":
     "Please contact us via support.onmail.com in order to complete this process.",
-  "signup.subaccount.title": `You've been invited to join {{ domain }}!`,
-  "signup.subaccount.subtitle": `We're excited to have you.`,
-  "signup.subaccount.password.title": `Create your email`,
-  "signup.subaccount.password.subtitle": `Choose a password to finish creating your account.`,
-  "signup.subaccount.password.email": `Email`,
-  "signup.subaccount.confirm.message":
+  "signup.subAccount.title": `You've been invited to join {{ domain }}!`,
+  "signup.subAccount.subtitle": `We're excited to have you.`,
+  "signup.subAccount.password.title": `Create your email`,
+  "signup.subAccount.password.subtitle": `Choose a password to finish creating your account.`,
+  "signup.subAccount.password.email": `Email`,
+  "signup.subAccount.confirm.message":
     "Creating this user will incur an additional charge of {{ price }} per {{ interval }}.",
   "signup.payment.header": "Get started with OnMail",
   "signup.payment.planInfo": "{{ name }} Subscription",
@@ -285,7 +285,7 @@ const translations = {
     "Accidentally send a message you wish you hadn't. Give yourself way out. Choose a cancellation period to show undo send option",
   "settings.general.smartReply.label": "Smart Reply",
   "settings.general.smartReply.description":
-    "Make it quick and easy, respond to messages quickly with repsonses based on message context and frequent replies",
+    "Make it quick and easy, respond to messages quickly with responses based on message context and frequent replies",
   "settings.general.followUpNudge.label": "Follow Up Nudge",
   "settings.general.followUpNudge.description":
     "Email's you have sent and may need to follow up on. It can be useful when you haven't heard back from someone about a question you had asked",
@@ -300,7 +300,7 @@ const translations = {
     "View attachment images in your inbox, quick action to download and view the image without having to open the email",
   "settings.general.priceAlertTracking.label": "Price Alert Tracking",
   "settings.general.priceAlertTracking.description":
-    "OnMail will automatically track purchasees eligible for refunds within the price alert window",
+    "OnMail will automatically track purchases eligible for refunds within the price alert window",
   "settings.general.smartFolders.label": "Smart Folders",
   "settings.general.smartFolders.description":
     "Automatically categorize Travel, Packages, Events and Receipts into smart folders in the main menu",
@@ -316,9 +316,9 @@ const translations = {
     "You already have the forwarding address {{ email }}.",
   "settings.general.forwardingAccounts.self":
     "You cannot specify your own email address.",
-  "settings.general.forwardingAccounts.verficationSent.title":
+  "settings.general.forwardingAccounts.verificationSent.title":
     "Verification Sent",
-  "settings.general.forwardingAccounts.verficationSent.description":
+  "settings.general.forwardingAccounts.verificationSent.description":
     "A confirmation link has been sent to <1>{{ email }}</1> to verify permission",
   "settings.general.forwardingAccounts.error.emailAddress":
     "Invalid email address",
@@ -515,8 +515,8 @@ const translations = {
   "settings.domain.branding.icon.recommended": "(512x512 recommended)",
   "settings.domain.branding.logo": "Logo",
   "settings.domain.branding.logo.recommended": "(at least 200x50 recommended)",
-  "settings.domain.subaccount.emailaddress": "Domain Users",
-  "settings.domain.subaccount.newaccount": "Add a new user",
+  "settings.domain.subAccount.emailAddress": "Domain Users",
+  "settings.domain.subAccount.newAccount": "Add a new user",
   "settings.domain.disconnect.title": "Disconnect Domain",
   "settings.domain.disconnect.description":
     "This action will permanently delete all accounts associated with {{ domain }}.",
@@ -547,7 +547,7 @@ const translations = {
     "Type in the email address below to confirm deletion. This will permanently delete this account.",
   "settings.customDomain.subAccountDetail.deletionConfirm.placeholder":
     "Enter Email Address",
-  "settings.customDomain.subaccountDetail.deletionConfrim.failed":
+  "settings.customDomain.subAccountDetail.deletionConfirm.failed":
     "Failed to delete this account. Please try again later, or contact us via support.onmail.com.",
   "settings.customDomain.newAccount.title": "Add a new user",
   "settings.customDomain.newAccount.success": "Success!",
@@ -677,7 +677,7 @@ const translations = {
     "Custom Branding Records",
   "settings.customDomain.setup.customBranding.description": `Gain access to our web interface and file transfer page via the custom domain. Enter the corresponding CNAME records, and verify there are green checkmarks next to the DNS records' name. <0>Learn more</0>`,
 
-  "settings.customDomain.setup.faq":
+  "settings.customDomain.setup.FAQ":
     "https://support.onmail.com/hc/en-us/articles/360051750012-Custom-Domain-Guide",
 
   "settings.customDomain.setup.entry.header.type": "Type",
@@ -695,7 +695,7 @@ const translations = {
     "Record value has been copied to your clipboard.",
   "settings.customDomain.setup.warning": `Your domain has unverified DNS records. Custom domain features may be limited right now.`,
   "settings.customDomain.setup.warning.admin": `<0>Go toSettings</0>`,
-  "settings.customDomain.setup.warning.subaccount": `Please notify the administrator.`,
+  "settings.customDomain.setup.warning.subAccount": `Please notify the administrator.`,
 
   "settings.securityPrivacy.title": "Security and Privacy",
   "settings.securityPrivacy.optIn.title": "Enable data sharing",
@@ -733,7 +733,7 @@ const translations = {
     "https://assets.easilydo.com/onmail/email-assets/security-export-data.jpg",
   "dataExport.downloadFailure.description": `You may be logged in with a different account. Please log in with the correct account to access your data export.\nContact us via <0>support.onmail.com</0> for help.`,
 
-  "dataExport.failure.tooltip":
+  "dataExport.failure.toolTip":
     "There was an issue with data export, please contact us via support.edison.tech for more information.",
 
   // Approve Sender
@@ -782,7 +782,7 @@ const translations = {
   "compose.upload.error.virusDetected": "Virus Detected",
   "compose.upload.warning.scanningFailed": "Scanning Failed",
   "compose.upload.error.failed": "Upload Failed",
-  "comopse.upload.error.exceedTotalSize":
+  "compose.upload.error.exceedTotalSize":
     "Total usage cannot exceed {{ total }}.",
 
   "compose.attachmentBox.subject": "{{ count }} Upload Remaining",
@@ -860,11 +860,11 @@ const translations = {
 
   // Thread list actions
   "thread.actions.archive": "Done",
-  "thread.actions.unarchive": "Move to Inbox",
+  "thread.actions.unArchive": "Move to Inbox",
   "thread.actions.read": "Mark as Read",
   "thread.actions.unread": "Mark as Unread",
   "thread.actions.trash": "Move to Trash",
-  "thread.actions.untrash": "Move to Inbox",
+  "thread.actions.unTrash": "Move to Inbox",
   "thread.actions.deleteForever": "Delete Forever",
   "thread.actions.notSpam": "Not Spam",
   "thread.actions.markAsSpam": "Mark as Spam",
@@ -898,12 +898,12 @@ const translations = {
 
   // Sifts
   "sifts.button.trackPackage": "Track Package",
-  "sifts.modals.hotel.checkin": "Check In",
-  "sifts.modals.hotel.checkout": "Check Out",
+  "sifts.modals.hotel.checkIn": "Check In",
+  "sifts.modals.hotel.checkOut": "Check Out",
   "sifts.modals.cruise.departs": "Departs",
   "sifts.modals.cruise.returns": "Returns",
-  "sifts.modals.rentalcar.pickup": "Pick Up",
-  "sifts.modals.rentalcar.dropoff": "Drop Off",
+  "sifts.modals.rentalCar.pickUp": "Pick Up",
+  "sifts.modals.rentalCar.dropOff": "Drop Off",
 
   // Large Attachment
   "largeAttachment.error.exceedMaxFileSize":
@@ -916,7 +916,7 @@ const translations = {
     "Total file usage can't exceed {{ maxTotalUsage }}.",
 
   // Preview
-  "preview.notAvaliable": "No preview available",
+  "preview.notAvailable": "No preview available",
   "preview.fileInfo": "File Information",
   "preview.fileInfo.title": "File Information",
   "preview.fileInfo.type": "Type",
@@ -947,29 +947,29 @@ const translations = {
   "nudge.followup_interval": "(0){Sent today. Follow Up?}",
   "nudge.dismiss": "Dismiss",
 
-  // Onboarding
-  "onboarding.backgroundImage":
+  // OnBoarding
+  "onBoarding.backgroundImage":
     "https://assets.easilydo.com/onmail/onmail-landing-bg.jpg",
-  "onboarding.welcome.0.title": "Welcome to your new inbox",
-  "onboarding.welcome.0.subtitle.0": "Your new email address",
-  "onboarding.welcome.0.subtitle.1": "<1>{{ email }}</1> is ready to use!",
-  "onboarding.welcome.1.title": "Accept Senders",
-  "onboarding.welcome.1.subtitle.0": "You decide who enters your inbox.",
-  "onboarding.welcome.1.subtitle.1":
+  "onBoarding.welcome.0.title": "Welcome to your new inbox",
+  "onBoarding.welcome.0.subtitle.0": "Your new email address",
+  "onBoarding.welcome.0.subtitle.1": "<1>{{ email }}</1> is ready to use!",
+  "onBoarding.welcome.1.title": "Accept Senders",
+  "onBoarding.welcome.1.subtitle.0": "You decide who enters your inbox.",
+  "onBoarding.welcome.1.subtitle.1":
     "Simply accept or block email requests with one click.",
-  "onboarding.welcome.2.title": "Quick Actions",
-  "onboarding.welcome.2.subtitle.0": "Take your time back.",
-  "onboarding.welcome.2.subtitle.1":
+  "onBoarding.welcome.2.title": "Quick Actions",
+  "onBoarding.welcome.2.subtitle.0": "Take your time back.",
+  "onBoarding.welcome.2.subtitle.1":
     "Say goodbye to decision fatigue, simplified actions are up front.",
-  "onboarding.welcome.3.title": "Large File Attachments",
-  "onboarding.welcome.3.subtitle.0": "Share bigger ideas.",
-  "onboarding.welcome.3.subtitle.1":
+  "onBoarding.welcome.3.title": "Large File Attachments",
+  "onBoarding.welcome.3.subtitle.0": "Share bigger ideas.",
+  "onBoarding.welcome.3.subtitle.1":
     "Don’t worry about file size stopping you.",
-  "onboarding.welcome.4.title": "Split Inbox",
-  "onboarding.welcome.4.subtitle.0": "Keep messages organized.",
-  "onboarding.welcome.4.subtitle.1":
+  "onBoarding.welcome.4.title": "Split Inbox",
+  "onBoarding.welcome.4.subtitle.0": "Keep messages organized.",
+  "onBoarding.welcome.4.subtitle.1":
     "Create inbox sections whenever you need to, easily.",
-  "onboarding.welcome.finish": `Let's Go!`,
+  "onBoarding.welcome.finish": `Let's Go!`,
 
   // Error Boundary Messages
   "error.application.title": "Oops!",
@@ -1070,9 +1070,9 @@ const translations = {
     "That’s it! We take care of the rest. Your new address and custom domain will be ready in a few minutes.",
   "customDomain.signup.invalidInvite":
     "Invalid/expired invitation link, please obtain a new link from your admin.",
-  "customDomain.subaccount.status.DISABLED": "Invite Pending",
-  "customDomain.subaccount.status.ACTIVE": "Active",
-  "customDomain.subaccount.status.SOFT_DELETED": "Deleted",
+  "customDomain.subAccount.status.DISABLED": "Invite Pending",
+  "customDomain.subAccount.status.ACTIVE": "Active",
+  "customDomain.subAccount.status.SOFT_DELETED": "Deleted",
   "customDomain.signup.whatsYourName": `What's Your Name?`,
   "customDomain.premiumDomains": `Premium Domains`,
   "customDomain.description.title": `Custom Domain Pricing`,
@@ -1131,7 +1131,7 @@ const translations = {
     "Disconnecting a domain will cause major changes to your account.",
   "criticalWarning.subtitle.premium":
     "Downgrading will cause major changes to your account.",
-  "criticalWarning.items.allowSubaccounts":
+  "criticalWarning.items.allowSubAccounts":
     "All additional email accounts associated with the custom domains will be permanently deleted.",
   "criticalWarning.items.fileStorage":
     "If your account exceeds the storage limit you will not be able to send or receive messages.",
@@ -1182,12 +1182,12 @@ const translations = {
   "paywall.singleFileSizeLimit.subtitle": "File too large to attach!",
   "paywall.singleFileSizeLimit.children": `Send large files without leaving your email, and avoid hitting a file size limit. Upgrade now to keep projects moving.`,
 
-  // - Allow Subaccounts
-  "paywall.allowSubaccounts.title": "Accounts for your team",
-  "paywall.allowSubaccounts.subtitle": "Custom domain accounts for your team",
-  "paywall.allowSubaccounts.children": `Add teammates to your custom domain. Control and manage accounts with admin permissions and present a unified front by keeping everyone on brand.`,
+  // - Allow SubAccounts
+  "paywall.allowSubAccounts.title": "Accounts for your team",
+  "paywall.allowSubAccounts.subtitle": "Custom domain accounts for your team",
+  "paywall.allowSubAccounts.children": `Add teammates to your custom domain. Control and manage accounts with admin permissions and present a unified front by keeping everyone on brand.`,
 
-  // Subaccount paywall text
+  // SubAccount paywall text
   "paywall.contactAdmin.title": `Oops! You'll need to contact your admin.`,
   "paywall.contactAdmin.subtitle":
     "Please contact <0>{{ admin }}</0> in order to change your plan.",
@@ -1247,7 +1247,7 @@ const translations = {
     "https://assets.easilydo.com/onmail/custom-domain-intro.png",
   "custom-domain-setting-up.png":
     "https://assets.easilydo.com/onmail/custom-domain-setting-up.png",
-  "onboard-logo": "https://assets.easilydo.com/onmail/logo-light.png",
+  "onBoard-logo": "https://assets.easilydo.com/onmail/logo-light.png",
 
   "custom-domain-bg.jpg":
     "https://assets.easilydo.com/onmail/custom-domain-bg.jpg",
@@ -1392,9 +1392,9 @@ const translations = {
   "paywall.singleFileSizeLimit.image.alt": "Large Attachments",
   "photo-loading.png": "https://assets.easilydo.com/onmail/photo-loading.png",
 
-  "paywall.allowSubaccounts.image.src":
+  "paywall.allowSubAccounts.image.src":
     "https://assets.easilydo.com/onmail/paywall-subaccounts.png",
-  "paywall.allowSubaccounts.image.alt": "Subaccounts",
+  "paywall.allowSubAccounts.image.alt": "SubAccounts",
 
   dictionaryPath: "https://assets.easilydo.com/onmail/dictionaries",
   pdfjsPath:
@@ -1420,7 +1420,7 @@ const translations = {
   "deleteAccount.before.title": "Before deleting this account",
   "deleteAccount.before.description":
     "You should remove this email account from all services using this address to protect your security and privacy.",
-  "deleteAccount.before.checkbox": "I acknowledge",
+  "deleteAccount.before.checkBox": "I acknowledge",
   "deleteAccount.confirm.title": "Are you sure?",
   "deleteAccount.confirm.description":
     "This action will permanently delete your account {{ email }} This should only be done if you are absolutely sure.<3/><3/>Type in <5>{{ email }}</5> to confirm.",
