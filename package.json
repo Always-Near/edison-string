@@ -1,0 +1,16 @@
+{
+  "name": "edison-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Always-Near/edison-i18n.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
