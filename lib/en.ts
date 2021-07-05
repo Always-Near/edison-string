@@ -107,7 +107,7 @@ const translations = {
   // Global Error
   required: "Required.",
   serverError:
-    "Oops, something went wrong on our end. Hold on tight while we patch things up. Please send us a note via support.onmail.com if this persists.",
+    "Something went wrong on our end. Hold tight while we patch things up. If this persists, contact customer support.",
   notAuthenticated: "Not authenticated.",
   wrongCredentials: "Invalid email or password.",
   incorrectPassword: "Incorrect password.",
