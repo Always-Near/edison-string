@@ -1,12 +1,12 @@
 {
   "name": "edison-i18n",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint --fix . lib --ext .ts,.tsx,.js,jsx"
+    "lint": "eslint --fix . src --ext .ts,.tsx,.js,jsx"
   },
   "husky": {
     "hooks": {
