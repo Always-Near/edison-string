@@ -108,6 +108,8 @@ const translations = {
   required: "Required.",
   serverError:
     "Something went wrong on our end. Hold tight while we patch things up. If this persists, contact customer support.",
+  networkError:
+  'Something’s wrong with your network. Check your connection and try again.',
   notAuthenticated: "Not authenticated.",
   wrongCredentials: "Invalid email or password.",
   incorrectPassword: "Incorrect password.",
