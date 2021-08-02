@@ -92,7 +92,8 @@ declare const translations: {
     readonly "status.unverified": "Unverified";
     readonly "checkBox.doNotShowAgain": "Don't show this again";
     readonly required: "Required.";
-    readonly serverError: "Oops, something went wrong on our end. Hold on tight while we patch things up. Please send us a note via support.onmail.com if this persists.";
+    readonly serverError: "Something went wrong on our end. Hold tight while we patch things up. If this persists, contact customer support.";
+    readonly networkError: "Something’s wrong with your network. Check your connection and try again.";
     readonly notAuthenticated: "Not authenticated.";
     readonly wrongCredentials: "Invalid email or password.";
     readonly incorrectPassword: "Incorrect password.";
