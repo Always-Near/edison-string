@@ -3,3 +3,5 @@ README.md
 tsconfig.json
 yarn.lock
 .DS_Store
+.eslintrc.js
+.eslintignore
