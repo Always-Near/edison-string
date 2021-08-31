@@ -163,7 +163,7 @@ const translations = {
   "signup.form.password.placeholder": "Choose a password",
   "signup.form.confirmPassword.placeholder":
     "Please enter your password again.",
-  "signup.form.confirmPassword.match": "Passwords must match.",
+  "signup.form.confirmPassword.match": "Passwords do not match.",
   "signup.form.password.invalidCharacters":
     "Your password contains invalid characters.",
   "signup.form.recoveryEmail.header": "Add an account recovery email.",
